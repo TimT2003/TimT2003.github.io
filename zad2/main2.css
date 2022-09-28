@@ -71,9 +71,9 @@
     color: whitesmoke; 
     width: 100%; 
    }
-@media screen and (max-device-width:480px){
+@media screen and (max-device-width:450px){
     body{
-     
+        width: 100%;
         
     }
     #grey{
