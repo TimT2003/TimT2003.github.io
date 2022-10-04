@@ -1,1 +1,81 @@
+* {margin:0;padding: 0}
 
+#dota{
+    background-image: url("12345.png");
+ 
+}
+
+
+.dota2{
+    font-size: 140px;
+    color:darkgray;
+    font-family:inherit;
+    margin:0;
+     
+}
+.container-fluid{
+    background-color: black;
+    margin: 0;
+    
+    
+   
+}
+.col-md-4  {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    
+    
+    
+}
+.col-md-4  a{
+    
+    color: whitesmoke;
+    
+    
+}
+.col-md-4  a:hover{
+    color: red;
+
+}
+.tide{
+    background-image: url("123456.jpg");
+    
+}
+.zad{
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+
+.form{
+    text-align: center;
+    height: 102%;
+    background-image: url("4.jpg");
+    width: 100%;
+    color: aliceblue;
+  
+    
+
+}
+.form p{
+    margin: 0;
+}
+.table{
+    border: 1px solid grey;
+}
+ #footer { 
+    left: 0; bottom: 0; 
+    background:black; 
+    color: whitesmoke; 
+    width: 100%; 
+
+   }
+@media screen and (max-device-width:480px){
+    .dota2{
+        font-size: 40px;
+    }
+    .logo1{
+        height: 80px;
+    }
