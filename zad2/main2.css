@@ -71,7 +71,9 @@
     width: 100%; 
    }
 @media screen and (max-device-width:480px){
-    
+    #dota{
+        flex-direction: column;
+    }
     #grey{
         flex-direction: column;
     }
