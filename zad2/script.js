@@ -2,13 +2,13 @@ function raschitat() {
 colvo  = document.getElementById('colvo').value;
 stoimost= document.getElementById('stoimost').value;
 if(colvo == ""){
-alert("Вы не указали ширину");
+alert("Вы не указали кол-во");
 } else if(stoimost == ""){
-alert("Вы не указали длину");
+alert("Вы не указали стоимость");
 } else {
 
 ploschad = parseFloat (colvo)* parseFloat (stoimost);
-document.getElementById('ploschad').innerHTML = "Площадь равна: "+ ploschad +" кв. м.";
+document.getElementById('ploschad').innerHTML = "Цена равна: "+ ploschad ;
 
 }
 }
