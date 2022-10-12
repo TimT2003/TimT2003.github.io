@@ -1,0 +1,168 @@
+* {margin:0;padding: 0}
+#dota{
+    background-image: url("12345.png");
+     
+}
+
+.dota2{
+    font-size: 172px;
+    color:darkgray;
+    font-family:inherit;
+    margin-right: 350px;
+}
+
+.logo1{
+     width: 350px;
+    padding-left: 20px;
+    
+}
+#grey{
+    
+    background-color: black;
+    text-align:center;
+    height: 50px;
+    word-spacing: 200px
+    
+}
+.main {
+    display: inline-block;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+.main a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+    
+}
+.main a:hover{
+    color: red;
+}
+.tide{
+    background-image: url("123456.jpg");
+    height: 960px;
+}
+.zad{
+    font-size: 30px;
+    text-align: center;
+}
+
+.table{
+    border: 1px solid grey;
+}
+.form{
+    text-align: center;
+    background-image: url("4.jpg");
+    width: 100%;
+    color: aliceblue;
+}
+ #footer { 
+    left: 0; bottom: 0; 
+    background:black; 
+    color: whitesmoke; 
+    width: 100%; 
+   }
+@media screen(min-width:320px){
+    grey{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    dota{
+        display: flex;
+        width: 100%;
+         height: 100%;
+    }
+    tide{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    form{
+        display: flex;
+        width: 100%;
+         height: 100%;
+    }
+}
+@media screen(min-width:768px){
+     grey{
+        display: flex;
+         width: 100%;
+         height: 100%;
+    }
+    dota{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+            width: 100%;
+         height: 100%;
+    }
+    tide{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    form{
+        display: flex;
+        width: 100%;
+         height: 100%;
+    }
+}
+    
+
+@media screen(min-width:992px){
+    grey{
+        display: flex;
+         width: 100%;
+         height: 100%;
+    }
+    dota{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        width: 100%;
+         height: 100%;
+    }
+    tide{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    form{
+        display: flex;
+        width: 100%;
+         height: 100%;
+    }
+}
+
+@media screen(min-width:1200px){
+    grey{
+        display: flex;
+         width: 100%;
+         height: 100%;
+    }
+    dota{
+        display: flex;
+        align-items: flex-start;
+        flex-wrap:nowrap; 
+        width: 100%;
+         height: 100%;
+    }
+    tide{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    form{
+        display: flex;
+        width: 100%;
+         height: 100%;
+    }
+}
