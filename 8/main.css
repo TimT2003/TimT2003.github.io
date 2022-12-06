@@ -13,14 +13,6 @@
     display: none;
     background-color: #161613;
     color: #fff;
-    width: 90%;
-    max-width: 720px;
-    padding: 40px 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -360px;
-    margin-top: -185px;
     text-align: center;
     box-shadow: 0 0 30px cyan;
   }
