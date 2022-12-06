@@ -14,6 +14,8 @@ $(function() {
   $(document).on("click", function(event) {
     if ($(event.target).closest($popWindow).length) return;
     if ($(event.target).closest($popUp).length) return;
+    $popOverlay.fadeOut();
+    $popWindow.fadeOut();
     event.stopPropagation();
   });
  
@@ -25,7 +27,8 @@ $(".subscribe-form").submit(function() {
       method: 'POST',
       data: th.serialize()
     })
-   
+       $subscribeWindow.fadeOut();
+        $popThankYouWindow.fadeIn();
       setTimeout(function() {
         th.trigger("reset");
       }, 1000); return false;
@@ -33,4 +36,6 @@ $(".subscribe-form").submit(function() {
 });
    
 $popUp.on('click', function(){
+  $popOverlay.fadeIn();
+  $subscribeWindow.fadeIn();
 });
